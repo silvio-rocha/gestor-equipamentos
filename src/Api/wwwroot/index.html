@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empréstimo de equipamentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Empréstimo de equipamentos</h1>
+    <p class="lead">Cadastre, consulte disponibilidade e registre um empréstimo.</p>
+
+    <section>
+      <h2>Novo equipamento</h2>
+      <form id="form-cadastro">
+        <label>
+          Código
+          <input id="codigo" name="codigo" required maxlength="64" placeholder="NB-01">
+        </label>
+        <label>
+          Nome
+          <input id="nome" name="nome" required maxlength="200" placeholder="Notebook Dell">
+        </label>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Equipamentos</h2>
+      <p id="mensagem" role="status"></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Status</th>
+            <th>Com quem</th>
+            <th>Emprestar</th>
+          </tr>
+        </thead>
+        <tbody id="lista"></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

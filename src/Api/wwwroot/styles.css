@@ -1,0 +1,77 @@
+:root {
+  font-family: Segoe UI, system-ui, sans-serif;
+  color: #1b1b1b;
+  background: #f4f1ea;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 880px;
+  margin: 2rem auto;
+  padding: 0 1rem 3rem;
+}
+
+h1, h2 {
+  margin-bottom: 0.4rem;
+}
+
+.lead {
+  color: #444;
+}
+
+section {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem 1.2rem 1.2rem;
+  margin-top: 1.2rem;
+}
+
+form, .emprestar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: end;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
+
+input {
+  padding: 0.4rem 0.5rem;
+  min-width: 12rem;
+}
+
+button {
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.8rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.45rem 0.3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.disponivel { color: #0a6b2d; font-weight: 600; }
+.emprestado { color: #9a3412; font-weight: 600; }
+
+#mensagem {
+  min-height: 1.2rem;
+}
+
+.erro { color: #9a1b1b; }
+.ok { color: #0a6b2d; }

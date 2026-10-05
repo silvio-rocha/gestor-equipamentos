@@ -1,0 +1,35 @@
+@baseUrl = http://localhost:5080
+
+POST {{baseUrl}}/equipamentos
+Content-Type: application/json
+
+{
+  "codigo": "NB-01",
+  "nome": "Notebook Dell"
+}
+
+###
+
+GET {{baseUrl}}/equipamentos
+
+###
+
+POST {{baseUrl}}/equipamentos/1/emprestimos
+Content-Type: application/json
+
+{
+  "pessoa": "Ana Souza"
+}
+
+###
+
+POST {{baseUrl}}/equipamentos/1/emprestimos
+Content-Type: application/json
+
+{
+  "pessoa": "Bruno Lima"
+}
+
+###
+
+POST {{baseUrl}}/equipamentos/1/devolucao

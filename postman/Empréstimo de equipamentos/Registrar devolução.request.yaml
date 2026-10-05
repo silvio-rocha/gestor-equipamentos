@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/equipamentos/1/devolucao"
+method: POST
+headers:
+  Content-Type: application/json
+order: 5000

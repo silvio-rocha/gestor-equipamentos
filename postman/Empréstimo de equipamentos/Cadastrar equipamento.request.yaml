@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/equipamentos"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "codigo": "NB-01",
+      "nome": "Notebook Dell"
+    }
+order: 1000

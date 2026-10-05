@@ -1,0 +1,9 @@
+.cursor/skills/
+.agents/skills/
+.env
+harness/memory/sessions/archive/
+bin/
+obj/
+*.user
+src/Api/data/
+*.db

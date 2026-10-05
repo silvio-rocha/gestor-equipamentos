@@ -1,0 +1,18 @@
+---
+description: Continuidade entre chats — ler memória ativa antes de qualquer tarefa
+alwaysApply: true
+---
+
+# Continuidade (gestor-equipamentos)
+
+Este repo é só cérebro. Não implementar produto aqui.
+
+Antes de qualquer tarefa, ler `harness/memory/active-context.md`.
+
+Handoff só via skill `session-handoff` (salvar sessão, onde paramos, pausar). Nunca improvisar recap.
+
+Nunca gravar transcript cru. Só fatos, decisões e estado.
+
+Fonte das skills: `harness/skills/`. Nunca editar pelas junctions (`.cursor/skills/`, `.agents/skills/`).
+
+Fase 0: skill `grill-me` até veredito seguir / refinar / descartar. Fase 1 só depois.

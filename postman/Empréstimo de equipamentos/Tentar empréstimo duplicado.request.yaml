@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{baseUrl}}/equipamentos/1/emprestimos"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "pessoa": "Bruno Lima"
+    }
+order: 4000
